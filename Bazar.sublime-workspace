@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n_",
+				"n_gastos"
+			],
+			[
+				"to",
+				"total_gastos"
+			],
+			[
+				"elimi",
+				"Eliminar"
+			],
+			[
+				"s",
+				"stock"
+			],
+			[
+				"p",
+				"precio"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"pr",
+				"productos"
+			],
+			[
+				"nu",
+				"nuevoStock"
+			],
+			[
+				"D",
+				"Detalle"
+			],
+			[
+				"fe",
+				"fecha"
+			],
+			[
+				"in",
+				"ingresar_stock"
+			],
+			[
+				"na",
+				"nav"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"m",
+				"monto"
+			],
+			[
+				"se",
+				"session_destroy"
+			],
+			[
+				"v",
+				"vista"
+			],
+			[
+				"de",
+				"detalle"
+			],
+			[
+				"sub",
+				"subTotal"
+			],
+			[
+				"Deta",
+				"detalle"
+			],
+			[
+				"id",
+				"idVenta"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"ve",
+				"ventas"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"ac",
+				"actulizarStock"
+			],
+			[
+				"ca",
+				"cantidad"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"st",
+				"stock"
+			],
+			[
+				"ses",
+				"session_unset"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"req",
+				"req1\trequire_once …"
+			],
+			[
+				"com",
+				"compra"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"int",
+				"into"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"ma",
+				"max"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"session_u",
+				"session_unset"
+			],
+			[
+				"i",
+				"index"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"c",
+				"carrito"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"r",
+				"req1\trequire_once …"
+			],
+			[
+				"pre",
+				"precio"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			],
+			[
+				"e",
+				"echo\techo \"…\""
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"pro",
+				"producto"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"my",
+				"mysql_query"
+			],
+			[
+				"mysql_s",
+				"mysql_select_db"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"cal",
+				"calculo"
+			],
+			[
+				"num",
+				"numero1"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"Usuario",
+				"usuariosdao"
+			],
+			[
+				"us",
+				"usuario"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Co",
+				"Conexion"
+			],
+			[
+				"cla",
+				"class\tclass …"
+			],
+			[
+				"php",
+				"phpinfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"emme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/stock.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/ventas.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/index.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/detalle.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/resumen.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/database/DB.sql",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/bazar.sublime-project",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/gastos.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/model/data.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/ActualizarStock.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/controller/modificarStock.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/vista/css/bootstrap.css",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/includes/vendors/bootstrap/dist/css/bootstrap-theme.min.css",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/model/gastos.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/includes/header.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/verGastos.php",
+		"/C/Users/Danilo/Google Drive/TNS programacion/Fundamentos de programación/stock.psc",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/includes/footer.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/controller/agregarGastos.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/index2.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/index_old.php",
+		"/C/Users/Danilo/Google Drive/Programacion/gentelella-1.4.0/production/index.php",
+		"/C/Users/Danilo/Google Drive/Programacion/gentelella-1.4.0/production/inbox.html",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/vista/ventas.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/vista/detalle.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/Bazar.sublime-project",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/model/detalle.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/controller/agregar.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/model/venta.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/model/producto.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/controller/generarVenta.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/controller/eliminarProCar.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/test.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/model/Coneccion.php",
+		"/C/Users/Danilo/Google Drive/Programacion/bazar/vista/index.php",
+		"/C/Users/Danilo/Google Drive/Programacion/pagina1/ejemplo_operadores.html",
+		"/C/Users/Danilo/Google Drive/Programacion/pagina1/calculadora.php",
+		"/C/Users/Danilo/Google Drive/Programacion/Bazar_rosita/sisventas/config/app.php",
+		"/C/Users/Danilo/Google Drive/Programacion/Bazar_rosita/sisventas/app/Http/Controllers/Controller.php",
+		"/C/Users/Danilo/Google Drive/Programacion/Bazar_rosita/sisventas/resources/lang/es/auth.php",
+		"/C/Users/Danilo/Google Drive/Programacion/admin/production/include/sidebar.php",
+		"/C/Users/Danilo/Google Drive/Programacion/admin/production/resumen.php",
+		"/C/Users/Danilo/Google Drive/Programacion/admin/production/include/head.php",
+		"/C/Users/Danilo/Google Drive/Programacion/login/datos/usuariodao.php",
+		"/C/Users/Danilo/Google Drive/Programacion/login/vista/index.php",
+		"/C/Users/Danilo/Google Drive/Programacion/login/datos/Conexion.php",
+		"/C/Users/Danilo/Google Drive/Programacion/login/controladores/usuariocontrolador.php",
+		"/C/Users/Danilo/Google Drive/Programacion/login/entidades/usuario.php",
+		"/C/Users/Danilo/Desktop/info.php",
+		"/C/Users/Danilo/Google Drive/Programacion/controldegastos/gastos.php",
+		"/C/Users/Danilo/Google Drive/Programacion/controldegastos/index2.php",
+		"/C/Users/Danilo/Google Drive/Programacion/controldegastos/includes/stile.php",
+		"/C/Users/Danilo/Google Drive/Programacion/controldegastos/index.php",
+		"/C/Users/Danilo/Google Drive/Programacion/controldegastos/includes/head.php",
+		"/C/Users/Danilo/Google Drive/Programacion/controldegastos/coneccion.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"C:\\Users\\Danilo\\Google Drive\\Programacion\\bazar",
+			"C:\\Users\\Danilo\\Google Drive\\Programacion\\admin"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"search",
+			"sear",
+			"pdf",
+			"print",
+			".."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bazar.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
