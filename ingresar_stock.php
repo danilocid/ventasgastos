@@ -25,16 +25,29 @@ include 'includes/header.php';
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="stock">Stock <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="codigodebarra">Codigo de Barras<span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" id="codigodebarra" name="codigodebarra" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="stock">Stock<span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input type="number" id="stock" name="stock" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="precio" class="control-label col-md-3 col-sm-3 col-xs-12">Precio</label>
+                        <label for="precio_compra" class="control-label col-md-3 col-sm-3 col-xs-12">Precio de Compra</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="precio" class="form-control col-md-7 col-xs-12" type="number" name="precio">
+                          <input id="precio_compra" class="form-control col-md-7 col-xs-12" type="number" required="required" name="precio_compra">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="precio_venta" class="control-label col-md-3 col-sm-3 col-xs-12">Precio de Venta</label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="precio_venta" required="required" class="form-control col-md-7 col-xs-12" type="number" name="precio_venta">
                         </div>
                       </div>
                       <div class="ln_solid"></div>

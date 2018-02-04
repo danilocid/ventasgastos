@@ -30,7 +30,14 @@ include 'includes/header.php';
                         echo "<label class='control-label col-md-3 col-sm-3 col-xs-12' for='descripcion'>Descripcion <span class='required'>*</span>";
                         echo "</label>";
                         echo "<div class='col-md-6 col-sm-6 col-xs-12'>";
-                          echo "<input type='text' id='descripcion' name='descripcion' required='required' class='form-control col-md-7 col-xs-12' disabled='disabled' value='".$det->nombre."'>";
+                          echo "<input type='text' id='descripcion' name='descripcion' required='required' class='form-control col-md-7 col-xs-12' value='".$det->nombre."'>";
+                        echo "</div>";
+                      echo "</div>";
+                      echo "<div class='form-group'>";
+                        echo "<label class='control-label col-md-3 col-sm-3 col-xs-12' for='codigodebarra'>Codigo de barras<span class='required'>*</span>";
+                        echo '</label>';
+                        echo "<div class='col-md-6 col-sm-6 col-xs-12'>";
+                          echo "<input type='text' id='codigodebarra' name='codigodebarra' required='required' class='form-control col-md-7 col-xs-12' value='".$det->codigodebarra."'>";
                         echo "</div>";
                       echo "</div>";
                       echo "<div class='form-group'>";
@@ -50,7 +57,7 @@ include 'includes/header.php';
                       echo "<div class='form-group'>";
                         echo "<label for='precioventa' class='control-label col-md-3 col-sm-3 col-xs-12'>Precio de venta</label>";
                         echo "<div class='col-md-6 col-sm-6 col-xs-12'>";
-                          echo "<input id='precioventa' class='form-control col-md-7 col-xs-12' type='number' name='precioventa' value='".$det->precioventa."'>";
+                          echo "<input id='precioventa' class='form-control col-md-7 col-xs-12' type='number' required='required' name='precioventa' value='".$det->precioventa."'>";
 
                            echo "<input id='id' class='form-control col-md-7 col-xs-12' type='hidden' name='id' value='".$id."'>";
                         }

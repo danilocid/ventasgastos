@@ -26,9 +26,10 @@ class Data{
 
 			$p->id = $reg[0];
 			$p->nombre = $reg[1];
-			$p->precioventa = $reg[2];
+			$p->codigodebarra = $reg[2];
 			$p->preciocompra = $reg[3];
-			$p->stock = $reg[4];
+			$p->precioventa = $reg[4];
+			$p->stock = $reg[5];
 
 			array_push($productos, $p);
 		}
@@ -99,7 +100,7 @@ class Data{
 	}
 
 	public function crearVenta($listaProductos, $total, $rut, $numero_documento, $documento){
-		$query = "insert into dte values(null, '".$rut."', $numero_documento, '".$documento."', now(), '".$total."')";
+		$query = "insert into dte values(null, '".$rut."', '$numero_documento', '".$documento."', now(), '".$total."')";
 		$this->con->ejecutar($query);
 
 		$query = "select max(id) from dte";
@@ -139,9 +140,9 @@ class Data{
 		$this->con->ejecutar($query);
 	}
 
-	public function agregarStock($nombre, $precio, $stock){
+	public function agregarStock($stock, $preciocompra, $precioventa, $descripcion, $codigodebarra){
 
-		$query = "insert into producto values(null, '$nombre', '$precio', '$stock')";
+		$query = "insert into productos values(null, '$descripcion', '$codigodebarra', $preciocompra, $precioventa, $stock)";
 
 		$this->con->ejecutar($query);
 	}
@@ -153,9 +154,9 @@ class Data{
 		$this->con->ejecutar($query);
 	}
 
-	public function ModificarProducto($id, $stock, $preciocompra, $precioventa){
+	public function ModificarProducto($id, $stock, $preciocompra, $precioventa, $descripcion, $codigodebarra){
 
-		$query = "update producto set stock = $stock, precio_venta = $precioventa, precio_compra = $preciocompra where id = $id";
+		$query = "update productos set stock = $stock, precio_venta = $precioventa, precio_compra = $preciocompra, nombre = '$descripcion', codigodebarra = '$codigodebarra' where id = $id";
 		
 		$this->con->ejecutar($query);
 	}
@@ -163,17 +164,18 @@ class Data{
 	public function verProducto($id){
 		$productos = array();
 
-		$query ="select * from producto where id = '$id'";
+		$query ="select * from productos where id = '$id'";
 		$res = $this->con->ejecutar($query);
 
 		while ($reg = mysql_fetch_array($res)) {
-			$p = new Producto();
+			$p = new Productos();
 
 			$p->id = $reg[0];
 			$p->nombre = $reg[1];
-			$p->precioventa = $reg[2];
+			$p->codigodebarra = $reg[2];
 			$p->preciocompra = $reg[3];
-			$p->stock = $reg[4];
+			$p->precioventa = $reg[4];
+			$p->stock = $reg[5];
 
 			array_push($productos, $p);
 		}

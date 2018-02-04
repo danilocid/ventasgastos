@@ -83,7 +83,9 @@
                     </ul>
                   </li>
                   
-                   <li ><a href="resumen.php"><i class="fa fa-university"></i> Resumen </a></li>
+                  <li ><a href="resumen.php"><i class="fa fa-university"></i> Resumen </a></li>
+                  <li ><a href="crea_respaldo.php"><i class="fa fa-floppy-o"></i> Respaldar DB </a></li>
+                  <li ><a href="ideas-pendientes.php"><i class="fa fa-check-circle"></i> Ideas </a></li>
                 </ul>
               </div>
             </div>

@@ -22,6 +22,7 @@ include 'includes/header.php';
   			echo "<tr class='success'>";
     		echo "<th>ID</th>";
     		echo "<th>Nombre</th>";
+        echo "<th>Codigo de Barras</th>";
     		echo "<th>Precio compra</th>";
         echo "<th>Precio venta</th>";
     		echo "<th>Stock</th>";
@@ -38,6 +39,7 @@ include 'includes/header.php';
     ?>
     <td><?php  echo $p->id ?></td>
     <?php echo "<td>".$p->nombre."</td>";
+    echo "<td>".$p->codigodebarra."</td>";
     echo "<td>"."$".$p->preciocompra."</td>";
     echo "<td>"."$".$p->precioventa."</td>";
     echo "<td>".$p->stock."</td>";
